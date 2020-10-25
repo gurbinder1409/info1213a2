@@ -1,0 +1,215 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  font-size: 20px;
+  font-weight: normal !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* this is hover for nav bar menu  */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bolder;
+  color: #0779e4;
+}
+
+/* logo first name   */
+.firstname {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #0779e4;
+}
+
+/* logo last name   */
+.lastname {
+  font-size: 30px;
+}
+
+/*  first container of index page  */
+.jumbotron .img-fluid {
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  width: 30%;
+  border-bottom: 1px solid white;
+  ;
+}
+/*  first container background*/
+.myimgback {
+  color: black;
+  background-image: url("photos/back2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/*  style for figure caption in jumptron */
+.figure-caption {
+  padding: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+/* ============social icons style============= */
+.socialicons {
+  font-size: 38px;
+  padding: 20px;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-facebook {
+  color: #0779e4;
+}
+
+.fa-twitter {
+  color: skyblue;
+}
+
+.fa-instagram {
+  color: #dc2743;
+}
+
+.fa-facebook {
+  color: #0779e4;
+}
+
+/* ==================================== */
+
+
+.divider {
+  margin-top: 100px;
+  margin-bottom: 40px;
+
+}
+
+hr {
+  max-width: 300px;
+}
+/* ============Experience section============= */
+
+.date {
+  margin-bottom: 25px;
+}
+
+
+/* ================================================ */
+
+/* ============Education section============= */
+
+.eduhead {
+  color: #0779e4;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+}
+
+.eduheadfull {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.card-img-top {
+  padding: 30px;
+}
+
+.card {
+  padding: 40px;
+}
+
+
+
+.edutitle {
+  margin-top: 50px;
+}
+
+.edutitle>div {
+  font-size: 22px;
+}
+
+
+
+.listhead {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+
+.card {
+  border: none;
+}
+
+.line {
+  margin: 50px;
+  opacity: 0;
+}
+
+
+.expdivider {
+  margin-bottom: 20px;
+}
+
+
+
+/* ===================================================== */
+
+/* ============Skills section============= */
+
+.skillhead {
+  color: #0779e4;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+
+
+}
+.badge {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.skilldivider {
+
+  margin-bottom: 80px;
+}
+
+div>span.badge-light {
+
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+/* ============================================= */
+
+
+/* ================Awards Section============================= */
+.carousel-caption h3 {
+  font-size: 40px;
+
+}
+
+.carousel-item {
+  opacity: 0.8;
+}
